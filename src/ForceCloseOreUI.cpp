@@ -40,7 +40,7 @@ std::string getPackageName() {
 
 std::string getConfigDir() {
     std::string pkgName = getPackageName();
-    std::string primary = "/sdcard/Android/data/" + pkgName + "/files/mods/ForceCloseOreUI/";
+    std::string primary = "/sdcard/games/ForceCloseOreUI/";
     std::error_code ec;
     fs::create_directories(primary, ec); 
     return primary;
